@@ -1,0 +1,35 @@
+body{
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  height: 100vh;
+}
+
+img{
+  transition: 2s;
+}
+.picture1{
+ border-radius:60%;
+ width::100px;
+ height:150px;
+}
+.picture1:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.picture2{
+  border-radius:50%;
+  width::150px;
+  height:150px;
+}
+.picture2:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.picture3{
+  border-radius:50%;
+  width::150px;
+  height:150px;
+}
+.picture3:hover{
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
